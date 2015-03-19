@@ -1,0 +1,14 @@
+<form>
+    <div !foreach="#field in formFields">
+      <label>{{ field.key }}</label>
+      <input 
+        type="text"
+        #v
+        (keyup)="setfield($event, field.key, v.value)"
+      >
+    </div>
+
+  <button>Submit</button>
+</form>
+
+<pre>{{ recordjson }}</pre>

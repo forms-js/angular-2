@@ -1,0 +1,20 @@
+{
+  "name": "ng2-ts",
+  "version": "0.0.0",
+  "homepage": "https://github.com/forms-js",
+  "authors": [
+    "Mark Chapman <mark.chapman@gmail.com>"
+  ],
+  "license": "Apache 2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "forms-js": "~0.0.2"
+  }
+}
